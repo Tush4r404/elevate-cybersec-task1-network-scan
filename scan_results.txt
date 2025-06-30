@@ -1,0 +1,27 @@
+# Nmap 7.97 scan initiated Mon Jun 30 21:31:23 2025 as: nmap -sS -oN scan_results.txt 192.168.238.0/24
+Nmap scan report for 192.168.238.41
+Host is up (0.0052s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: C2:92:DC:5F:00:99 (Unknown)
+
+Nmap scan report for 192.168.238.138
+Host is up (0.0058s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+8008/tcp open  http
+8009/tcp open  ajp13
+8443/tcp open  https-alt
+9000/tcp open  cslistener
+MAC Address: 1C:30:08:77:1E:A1 (Hui Zhou Gaoshengda Technology)
+
+Nmap scan report for 192.168.238.222
+Host is up (0.00098s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+# Nmap done at Mon Jun 30 21:32:17 2025 -- 256 IP addresses (3 hosts up) scanned in 54.88 seconds
